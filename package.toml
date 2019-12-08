@@ -1,14 +1,14 @@
 [source]
-name = "fftoken_io"
+name = "incubaid_com"
 description = "enertia_io website"
 threebot = "zerobot"
 version = "1.0.0"
 
 [actor]
-namespace = "fftoken_act_ns" 
+namespace = "incubaid_com_act_ns" 
 
 [[bcdbs]]
-namespace = "fftoken_ns"
+namespace = "fincubaid_com_ns"
 type = "redis"
 instance = "default"
 
