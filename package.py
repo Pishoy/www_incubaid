@@ -16,7 +16,7 @@ class Package(j.baseclasses.threebot_package):
         locations = website.locations.get("fftoken")
         static_location = locations.locations_static.new()
         static_location.name = "static"
-        static_location.path_url = "/html"
+        static_location.path_url = "/incu"
         path = j.clients.git.getContentPathFromURLorPath(self.enertia_io, branch=self.branch, pull=True)
         html_pah = "{}/html".format(path)
         ptint("this is the html path {}".format(html_path))
