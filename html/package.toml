@@ -7,7 +7,7 @@ version = "1.0.0"
 [actor]
 namespace = "enertia-io_act_ns" 
 
-bcdbs
+[[bcdbs]]
 namespace = "enertia_io_ns"
 type = "redis"
 instance = "default"
