@@ -1,5 +1,5 @@
-history
-project.mobirise-tmp
-debug.log
+html/history
+html/project.mobirise-tmp
+html/debug.log
 package.py
-publish-hashes.json
+html/publish-hashes.json
