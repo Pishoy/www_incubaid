@@ -16,11 +16,9 @@ class Package(j.baseclasses.threebot_package):
         locations = website.locations.get("fftoken")
         static_location = locations.locations_static.new()
         static_location.name = "static"
-        static_location.path_url = "/html"
-        path = j.clients.git.getContentPathFromURLorPath(self.enertia_io, branch=self.branch, pull=True)
-        html_pah = "{}/html".format(path)
-        print("this is the html path {}".format(html_path))
-        static_location.path_location = html_path
+        static_location.path_url = "/sandbox/code/github/pishoy/www_incubaid/html"
+        #path = j.clients.git.getContentPathFromURLorPath(self.enertia_io, branch=self.branch, pull=True)
+        static_location.path_location = 
         static_location.use_jumpscale_weblibs = True # if set, will copy weblibs and serve it from /static/weblibs directly
         locations.configure()
         website.configure()
