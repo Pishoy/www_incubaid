@@ -18,7 +18,7 @@ class Package(j.baseclasses.threebot_package):
         static_location.name = "static"
         static_location.path_url = "/"
         path = j.clients.git.getContentPathFromURLorPath(self.enertia_io, branch=self.branch, pull=True)
-        html_path = "{}/html".format(path)"
+        html_path = "{0}/html".format(path)
         static_location.path_location = html_path
         static_location.use_jumpscale_weblibs = True # if set, will copy weblibs and serve it from /static/weblibs directly
         locations.configure()
