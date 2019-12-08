@@ -1,7 +1,7 @@
 [source]
 name = "incubaid_com"
 description = "enertia_io website"
-threebot = "zerobot"
+threebot = "incubaid_author"
 version = "1.0.0"
 
 [actor]
